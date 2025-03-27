@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <h1>Welcome to My Media Page</h1>
+
+    <picture>
+        <source srcset="./assets/mobile.jpg" media="(max-width: 600px)">
+        <source srcset="./Assets/laptop.jpg" media="(min-width: 601px) and (max-width: 1023px)">
+        <source srcset="./assets/tablet.jpg" media="(min-width: 1024px)">
+        <img src="./Assets/laptop.jpg" alt="My Image">
+    </picture>
+
+    <h2>My Video</h2>
+    <video src="./Assets/video.mp4" 
+    width="320" height="240" controls>
+</video>
+
+    <h2>My Music</h2>
+    <audio src="./Assets/music.mp3" controls></audio> <br>
+    <a href="../index.html">Home page</a>
+    <a href="./table.html">Table</a>
+</body>
+</html>
